@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 .text-reset:hover {
   color: var(--bs-primary) !important;
 }
@@ -2437,7 +2437,7 @@
   --bs-dark-border-subtle: #64748b;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 2, 6, 23;
-  --bs-font-sans-serif: "Public Sans", sans-serif;
+  --bs-font-sans-serif: "Noto Sans", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
