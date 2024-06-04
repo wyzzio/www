@@ -1,0 +1,25 @@
+{
+  "hosting": {
+    "site": "stoky-io",
+    "cleanUrls": true,
+    "public": "/",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "emulators": {
+    "hosting": {
+      "public": "/",
+      "port": 80,
+      "cleanUrls": true,
+      "host": "0.0.0.0",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }
+  }
+}

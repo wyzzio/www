@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.btn-primary {
+    background-color:#0A58CA;
+    border-color: #0A58CA;
+}
+
+.btn-primary:hover {
+    background-color:#0a4bad;
+}
+
+.navbar {
+    margin-top: 20px !important;
+    border-radius: 12px;
+    width: 55%;
+    margin: 0 auto;
+}
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.bg-light {
+    background-color: #ffffff !important;
+}
+
+.active-menu-item {
+    color:#0A58CA;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        width: 80%;
+    }
+    navbar .d-flex {
+        display: block !important;
+    }
+    .container {
+        padding: 0 20px;
+    }
+
+  }
+/** STRAT HEADER CSS 
+.header {
+    width: 40%;
+    margin: 0 auto;
+    border: 1px solid #F4F4F4;
+    border-radius: 12px;
+    box-shadow: 22px 0px 44px rgba(28, 31, 35, .1);
+    padding: 8px 0;
+    margin-top: 15px;
+}
+
+.header .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .container .logo,.header .container .nav{
+    margin-right: 100px;
+}
+
+.header .container .logo {
+    font-weight: 600;
+}
+
+.header .container .nav a, .header .container .singInUp a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #1C1F23;
+}
+.header .container .nav, .header .container .singInUp {
+    display: none;
+}
+
+.header .container .nav-mobile {
+    display: none;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .container .nav-mobile .items{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+
+}
+
+.header .container .nav .active, .header .container .nav a:hover, .header .container .singInUp a:hover {
+    font-weight: 600;
+    color: #0A58CA;
+}
+
+.header .container .singInUp .btn-primary {
+    background-color:#0A58CA;
+    border-color: #0A58CA;
+}
+
+.header .container .singInUp .btn-primary:hover {
+    background-color:#0a4bad;
+}/** END HEADER CSS */
+
+
+/** STRAT HERO SECTION CSS */
+.hero {
+    margin-top: 40px;
+}
+.hero .container .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*.hero .container h1{
+    font-size: 3.75rem;
+}*/
+
+.hero .container .btn-primary{
+    background-color:#0A58CA;
+    border-color: #0A58CA;
+}
+
+.hero .container .btn-primary:hover{
+    background-color:#0a4bad;
+}
+
+.hero .container .download {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 30px;
+}
+.hero .container .download p {
+    padding-top: 11px;
+}
+
+.hero .container .download img {
+    width: 65%;
+}
+
+.hero .container .download .appStore {
+    margin-top: -10px;
+}
+
+
+.bg-blue {
+    background-color: #F3F7FC;
+    padding: 94px 0;
+    margin-top: 90px;
+}
+
+.bg-blue .col-custom {
+    margin-bottom: 20px;
+}
+
+.bg-blue .card{
+    margin: 20px 0;
+    border-radius: 21px;
+    border-bottom: 10px solid #E4E8ED;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 100%;
+}
+
+.bg-blue .card .card-img-top{
+    padding: 10px;
+    border-radius: 21px;
+}
+
+.bg-blue .card .card-title{
+    font-size: 25px;
+}
+
+.bg-blue .card .card-text{
+    font-size: 21px;
+    color: #999999;
+    margin-bottom: 20px;
+}
+
+.sectionOne  {
+    padding: 94px 0;
+    color: white;
+}
+.sectionOne .col-custom {
+    margin-bottom: 20px;
+}
+
+.sectionOne  .card {
+    margin: 30px 0;
+    border-radius: 21px;
+    background-color: #1A1D21;
+    color: white;
+    height: 100%;
+}
+
+.sectionOne .card-img-top-custom{
+    padding-left: 14px;
+    padding-top: 14px;
+}
+
+.sectionOne  .card-img-top{
+    padding: 20px;
+    border-radius: 21px;
+    margin-top: -65px;
+}
+
+.sectionOne  .card .card-title{
+    font-size: 29px;
+    font-weight: '600';
+}
+
+
+.sectionTow  {
+    padding: 40px 0;
+    color: white;
+}
+.sectionTow .col-custom {
+    margin-bottom: 20px;
+}
+
+.sectionTow .card {
+    margin: 30px 0;
+    border-radius: 21px;
+    background-color: #1A1D21;
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.sectionTow .card-img-top-custom{
+    padding-left: 14px;
+    padding-top: 14px;
+    width: 15%;
+}
+
+.sectionTow .card .card-title{
+    font-size: 20px;
+    font-weight: '600';
+}
+
+.sectionTow .card .card-text{
+    font-size: 15px;
+    color: #868789;
+}
+
+
+.blog {
+    padding: 94px 0;
+}
+
+.blog .sectionTitle {
+    display: flex;
+    align-items: center;
+}
+.blog .col-custom {
+    margin-bottom: 20px;
+}
+
+.blog .card {
+    margin: 30px 0;
+    border-radius: 21px;
+    border-bottom: 10px solid #E4E8ED;
+    height: 100%;
+}
+.blog .card-img-top{
+    padding: 20px;
+    border-radius: 21px;
+}
+
+.blog .card .card-title{
+    font-size: 27px;
+    font-weight: '600';
+}
+
+
+.footer {
+    padding: 90px 0;
+    text-align: center;
+    color: white;
+}
+
+.footer h1 {
+    font-size: 45px;
+}
+
+.footer .newsletter {
+    padding: 60px 20px;
+    background-color:#1A1D21;
+    border-radius: 21px;
+}
+
+.footer .newsletter .inputSection {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: #35383B;
+    border-radius: 7px;
+}
+
+.footer .newsletter .inputSection input {
+    width: 80%;
+    background-color: #35383B;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.infos label {
+    color: #77797B;
+    font-size: 15px;
+}
+.infos .mail {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.infos .mail:hover {
+    text-decoration: underline;
+}
+
+.infos label a {
+    text-decoration: none;
+    color: #77797B;
+}
+.infos label a:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer .newsletter .inputSection {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer .newsletter .inputSection button {
+        width: 70%;
+
+    }
+  }
+
+
+  /** BLOG PAGE CSS */
+  .header-blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pagBlog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  /** END BLOG PAGE CSS */
+
+
+
+/** POST PAGE CSS */
+
+
+.contentPost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+/** END POST PAGE CSS */
+
+
+/** PRICING PAGE CSS */
+/** END PRICING PAGE CSS */
