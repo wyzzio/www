@@ -2460,10 +2460,10 @@
   --bs-tertiary-bg-rgb: 241, 245, 249;
   --bs-heading-color: var(--bs-gray-800);
   --bs-link-color: #006aff;
-  --bs-link-color-rgb: 139, 61, 255;
+  --bs-link-color-rgb: 0, 106, 255;
   --bs-link-decoration: none;
   --bs-link-hover-color: #0055cc;
-  --bs-link-hover-color-rgb: 111, 49, 204;
+  --bs-link-hover-color-rgb: 0, 85, 204;
   --bs-code-color: #d63384;
   --bs-highlight-color: #64748b;
   --bs-highlight-bg: #fff3cd;
